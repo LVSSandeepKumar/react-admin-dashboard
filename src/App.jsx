@@ -6,7 +6,7 @@ import SalesPage from "./pages/SalesPage";
 import OrdersPage from "./pages/OrdersPage";
 import AnalyticsPage from "./pages/AnalyticsPage";
 import SettingsPage from "./pages/SettingsPage";
-import Sidebar from "./components/Sidebar";
+import Sidebar from "./components/common/Sidebar";
 
 function App() {
   return (
