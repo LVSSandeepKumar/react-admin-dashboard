@@ -9,7 +9,7 @@ import {
 } from "recharts";
 import { motion } from "framer-motion";
 
-const salesData = [
+const SALES_DATA = [
   { name: "Jul", sales: 4200 },
   { name: "Aug", sales: 3800 },
   { name: "Sep", sales: 5100 },
@@ -35,7 +35,7 @@ const SalesOverviewCharts = () => {
       <h2 className="text-lg font-medium mb-4 text-gray-100">Sales Overview</h2>
       <div className="h-80">
         <ResponsiveContainer width={"100%"} height={"100%"}>
-          <LineChart data={salesData}>
+          <LineChart data={SALES_DATA}>
             <CartesianGrid strokeDasharray="3 3" stroke="#485563" />
             <XAxis dataKey={"name"} />
             <YAxis stroke="#9ca3af" />
